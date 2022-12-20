@@ -1,0 +1,135 @@
+
+%top{
+    position: relative;
+    top:7px;
+    margin: auto;
+
+}
+
+#search{
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+    border: 1px rgb(191, 191, 191) solid;
+    border-radius: 50px;
+    width: auto;
+    max-width: 598px;
+    height: 46px;
+    background-color: transparent; 
+    padding-left: 20px;
+
+    
+}
+
+#search:hover{
+
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+
+
+}
+
+#area{
+    @extend %top;
+    width: 80%;
+    border:none;
+    height: 30px;
+    font-size: 17px;
+   
+    
+   
+}
+
+#area:focus{
+
+    outline: none;
+
+}
+
+#submit{
+
+margin-left: 80px;
+border-radius: 40px;
+border: none;
+background-color: rgb(205, 205, 205);
+}
+
+#submit:hover{
+
+    background-color: rgb(169, 169, 169);
+    
+}
+
+
+#heading2{
+
+    margin: 0 auto;
+    position: relative;
+    top:100px;
+    text-align: center;
+
+}
+a:hover{
+
+    text-decoration: underline;
+
+}
+
+#lucky{
+
+    position: relative;
+    top:230px;
+    text-align: center;
+}
+
+.lucky{
+
+    border: none;
+   padding: 6px 10px;
+   border-radius:4px;
+
+    
+}
+
+.luck{
+
+    border: none;
+    padding: 6px 10px;
+    border-radius:4px;
+    position: relative;
+    top:230px;
+
+}
+
+.lucky:hover{
+
+    border: 1px rgb(93, 93, 93) solid;
+
+}
+
+.CcAdNb{
+
+    margin: auto;
+    
+
+}
+
+.QCzoEc{
+
+    color: #9aa0a6;
+
+} 
+
+.z1asCe{
+    
+    float: left;
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    top: 10px; 
+    width: 24px;
+  
+}
