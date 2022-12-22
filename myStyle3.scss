@@ -13,6 +13,8 @@
     border-radius:5px;
     border: none;
     text-align: center;
+    position: relative;
+    left: 180px;
 }
 
 .qw:hover{
@@ -37,7 +39,6 @@ body{
 
         float: left;
         margin: 5px 15px;
-
     }
     #google{
 
@@ -46,7 +47,28 @@ body{
     }
 }
 
-.input{
+#float{
 
-    background-color: black;
+    float: left;
+
 }
+
+.label{
+   
+   
+    margin-left:10px ;
+}
+
+.input{
+    position: relative;
+    left: 200px;
+    top: -20px;
+}
+
+.w{
+    width: 75px;
+}
+
+
+
+

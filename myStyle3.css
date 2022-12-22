@@ -12,6 +12,8 @@
   border-radius: 5px;
   border: none;
   text-align: center;
+  position: relative;
+  left: 180px;
 }
 
 .qw:hover {
@@ -38,8 +40,22 @@ body {
   float: right;
 }
 
+#float {
+  float: left;
+}
+
+.label {
+  margin-left: 10px;
+}
+
 .input {
-  background-color: black;
+  position: relative;
+  left: 200px;
+  top: -20px;
+}
+
+.w {
+  width: 75px;
 }
 
 /*# sourceMappingURL=myStyle3.css.map */
