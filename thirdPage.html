@@ -5,10 +5,36 @@
 
     </head>
     <body>
-        <form action="">
 
-            <input type="text">
+        <div id="theDiv">
+            <img src="google.png" width="70px">
+            <p id="google"><a href="index.html">Google Search</a></p>
+        </div>
+         <h3 style="margin-left: 15px;color: rgb(240, 115, 99);">Advanced Search</h3>
+         <div id="seperator"></div>
+         <h4 style="margin-left: 15px;">Find pages with...</h4>
+        <form action="https://www.google.com/advanced_search" >
 
+            <div id="text">
+                <p>all these words:</p><br>
+                <p>this exact word or phrase:</p><br>
+                <p>any of these words:</p> <br>
+                <p>none of these words:</p><br>
+                <p>number ranging from:</p>
+            </div>
+            <div id="float">
+            <input type="text" name="as_q" value><br>
+            <input type="text" name="as_epq"><br>
+            <input type="text" name="as_oq"><br>
+            <input type="text" name="as_eq"><br>
+            
+            <div id="gh">
+                <input type="text" name="as_nlo">
+                to
+            <input type="text" name="as_nhi">
+            </div>
+            <input class="qw" type="submit" value="Advanced Search">
+            </div>
         </form>
     </body>
 </html>
