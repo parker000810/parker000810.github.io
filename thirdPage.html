@@ -13,28 +13,33 @@
          <h3 style="margin-left: 15px;color: rgb(240, 115, 99);">Advanced Search</h3>
          <div id="seperator"></div>
          <h4 style="margin-left: 15px;">Find pages with...</h4>
-        <form action="https://www.google.com/advanced_search" >
+        
+         <div id="form">
+         <form action="https://www.google.com/advanced_search" >
 
-            <div id="text">
-                <p>all these words:</p><br>
-                <p>this exact word or phrase:</p><br>
-                <p>any of these words:</p> <br>
-                <p>none of these words:</p><br>
-                <p>number ranging from:</p>
-            </div>
-            <div id="float">
-            <input type="text" name="as_q" value><br>
-            <input type="text" name="as_epq"><br>
-            <input type="text" name="as_oq"><br>
-            <input type="text" name="as_eq"><br>
             
-            <div id="gh">
-                <input type="text" name="as_nlo">
+            <div id="float">
+            <div class="label"><label>all these words:</label></div>    
+            <div class="input"><input type="text" name="as_q" value></div>
+            
+            <div class="label"><label>this exact word or phrase:</label></div>
+            <div class="input"><input type="text" name="as_epq"></div>
+            
+            <div class="label"><label>any of these words:</label></div>
+            <div class="input"><input type="text" name="as_oq"></div>
+            
+            <div class="label"><label>none of these words:</label></div>
+            <div class="input"><input type="text" name="as_eq"></div>
+           
+            <div class="label"><label>number ranging from:</label></div>
+            <div class="input">
+                 <input type="text" name="as_nlo">
                 to
-            <input type="text" name="as_nhi">
+                 <input type="text" name="as_nhi">
             </div>
             <input class="qw" type="submit" value="Advanced Search">
             </div>
+        </div>
         </form>
     </body>
 </html>
